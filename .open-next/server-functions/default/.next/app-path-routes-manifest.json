@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/hero/page": "/admin/hero",
+  "/admin/media/page": "/admin/media",
+  "/admin/page": "/admin",
+  "/admin/stickers/page": "/admin/stickers",
+  "/admin/theme/page": "/admin/theme",
+  "/api/admin/banners/[id]/route": "/api/admin/banners/[id]",
+  "/api/admin/banners/reorder/route": "/api/admin/banners/reorder",
+  "/api/admin/banners/route": "/api/admin/banners",
+  "/api/banners/route": "/api/banners",
+  "/api/upload/route": "/api/upload",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/"
+}

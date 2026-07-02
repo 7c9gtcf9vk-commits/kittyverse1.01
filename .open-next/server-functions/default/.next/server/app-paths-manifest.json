@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/hero/page": "app/admin/hero/page.js",
+  "/admin/media/page": "app/admin/media/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/stickers/page": "app/admin/stickers/page.js",
+  "/admin/theme/page": "app/admin/theme/page.js",
+  "/api/admin/banners/[id]/route": "app/api/admin/banners/[id]/route.js",
+  "/api/admin/banners/reorder/route": "app/api/admin/banners/reorder/route.js",
+  "/api/admin/banners/route": "app/api/admin/banners/route.js",
+  "/api/banners/route": "app/api/banners/route.js",
+  "/api/upload/route": "app/api/upload/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js"
+}
