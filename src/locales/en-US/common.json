@@ -1,0 +1,40 @@
+{
+  "header": {
+    "logo": "KittyVerse",
+    "nav": {
+      "home": "Home",
+      "gallery": "Gallery",
+      "projects": "Projects",
+      "journal": "Journal"
+    },
+    "search": "Search...",
+    "themeToggle": "Toggle theme",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "language": "Language"
+  },
+  "footer": {
+    "copyright": "© {{year}} KittyVerse. All rights reserved.",
+    "madeWith": "Made with ❤️",
+    "github": "GitHub",
+    "twitter": "Twitter",
+    "instagram": "Instagram"
+  },
+  "admin": {
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "hero": "Hero Banners",
+      "media": "Media Center",
+      "stickers": "Stickers",
+      "theme": "Theme Settings",
+      "backToSite": "Back to site"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "heroCount": "Hero Banners",
+      "mediaCount": "Media Items",
+      "stickerCount": "Stickers",
+      "overview": "Overview"
+    }
+  }
+}

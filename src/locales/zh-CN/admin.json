@@ -1,0 +1,98 @@
+{
+  "dashboard": {
+    "welcome": "欢迎来到 KittyVerse 管理后台",
+    "manageContent": "在这里你可以管理 Hero 横幅、媒体资源和贴纸配置。"
+  },
+  "hero": {
+    "title": "Hero 横幅管理",
+    "add": "添加横幅",
+    "addTitle": "添加新横幅",
+    "editTitle": "编辑横幅",
+    "empty": "暂无横幅，点击上方按钮添加",
+    "enable": "启用",
+    "disable": "禁用",
+    "moveUp": "上移",
+    "moveDown": "下移",
+    "preview": "预览",
+    "closePreview": "关闭预览",
+    "confirmDelete": "确定删除此横幅？",
+    "form": {
+      "type": "横幅类型",
+      "typeImage": "纯图片",
+      "typeVideo": "视频",
+      "typeMixed": "图文混合",
+      "title": "标题",
+      "subtitle": "副标题",
+      "chinese": "中文",
+      "englishFields": "英文翻译（可选）",
+      "titlePlaceholder": "如：欢迎来到 KittyVerse",
+      "subtitlePlaceholder": "如：探索梦幻世界",
+      "description": "描述",
+      "imageUrl": "图片地址",
+      "mobileImageUrl": "移动端图片地址",
+      "videoUrl": "视频地址",
+      "posterUrl": "视频封面地址",
+      "buttonText": "按钮文字",
+      "buttonLink": "按钮链接",
+      "save": "保存修改",
+      "create": "创建横幅"
+    },
+    "table": {
+      "order": "排序",
+      "type": "类型",
+      "preview": "预览",
+      "title": "中文标题",
+      "titleEn": "英文标题",
+      "enabled": "状态",
+      "actions": "操作"
+    }
+  },
+  "media": {
+    "title": "媒体管理",
+    "add": "添加媒体",
+    "addTitle": "添加新媒体资源",
+    "empty": "暂无媒体资源，点击上方按钮添加",
+    "form": {
+      "name": "名称",
+      "namePlaceholder": "如：Hello Kitty 横幅",
+      "type": "类型",
+      "typeImage": "图片",
+      "typeVideo": "视频",
+      "typeAudio": "音频",
+      "url": "URL",
+      "description": "描述",
+      "descriptionPlaceholder": "简短描述",
+      "addBtn": "添加媒体"
+    },
+    "table": {
+      "name": "名称",
+      "type": "类型",
+      "category": "分类",
+      "description": "描述",
+      "actions": "操作"
+    }
+  },
+  "stickers": {
+    "title": "贴纸管理",
+    "subtitle": "启用或禁用页面上的浮动贴纸",
+    "leftSide": "左侧贴纸",
+    "rightSide": "右侧贴纸",
+    "empty": "暂无贴纸"
+  },
+  "theme": {
+    "title": "主题设置",
+    "reset": "恢复默认",
+    "colors": "颜色设置",
+    "primaryColor": "主色调",
+    "secondaryColor": "辅助色",
+    "accentColor": "点缀色",
+    "bgColor": "背景色",
+    "branding": "品牌设置",
+    "logoText": "Logo 文字",
+    "fontFamily": "字体",
+    "borderRadius": "圆角大小",
+    "display": "显示设置",
+    "darkMode": "暗黑模式",
+    "darkModeDesc": "开启后使用深色背景和浅色文字"
+  }
+}

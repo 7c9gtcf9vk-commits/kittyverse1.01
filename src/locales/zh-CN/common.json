@@ -1,0 +1,40 @@
+{
+  "header": {
+    "logo": "KittyVerse",
+    "nav": {
+      "home": "首页",
+      "gallery": "画廊",
+      "projects": "项目",
+      "journal": "日志"
+    },
+    "search": "搜索...",
+    "themeToggle": "切换主题",
+    "menuOpen": "打开菜单",
+    "menuClose": "关闭菜单",
+    "language": "语言"
+  },
+  "footer": {
+    "copyright": "© {{year}} KittyVerse. 保留所有权利。",
+    "madeWith": "Made with ❤️",
+    "github": "GitHub",
+    "twitter": "Twitter",
+    "instagram": "Instagram"
+  },
+  "admin": {
+    "sidebar": {
+      "dashboard": "仪表盘",
+      "hero": "Hero 管理",
+      "media": "媒体管理",
+      "stickers": "贴纸管理",
+      "theme": "主题设置",
+      "backToSite": "返回网站"
+    },
+    "dashboard": {
+      "title": "仪表盘",
+      "heroCount": "Hero 数量",
+      "mediaCount": "媒体数量",
+      "stickerCount": "贴纸数量",
+      "overview": "概览"
+    }
+  }
+}

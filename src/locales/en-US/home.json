@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "prev": "Previous",
+    "next": "Next",
+    "slide1": { "title": "Welcome to KittyVerse", "subtitle": "A dreamy digital space inspired by Hello Kitty & Friends" },
+    "slide2": { "title": "Meet the Characters", "subtitle": "Explore your favorite Sanrio friends in a magical gallery" },
+    "slide3": { "title": "Create & Share", "subtitle": "Build your own KittyVerse projects and journals" },
+    "slide4": { "title": "Discover Magic", "subtitle": "Dive into a world of cuteness, creativity, and calm" }
+  },
+  "featured": {
+    "title": "Featured",
+    "cards": {
+      "0": { "title": "Characters", "description": "Explore all Sanrio characters with detailed profiles" },
+      "1": { "title": "Macaron Gallery", "description": "Sweet pastel hues that soothe your soul" },
+      "2": { "title": "Creative Projects", "description": "Discover amazing works and creativity in the community" },
+      "3": { "title": "Dream Journal", "description": "Capture adorable moments from everyday life" }
+    }
+  },
+  "gallery": {
+    "title": "Character Gallery",
+    "subtitle": "Meet all our adorable friends",
+    "characters": {
+      "helloKitty": { "name": "Hello Kitty", "desc": "A cheerful little kitty who loves making friends and collecting cute things" },
+      "myMelody": { "name": "My Melody", "desc": "A gentle bunny girl who always wears a pink hood" },
+      "kuromi": { "name": "Kuromi", "desc": "A mischievous yet sweet imp with a tough exterior but a soft heart" },
+      "cinnamoroll": { "name": "Cinnamoroll", "desc": "A puppy born in the clouds with a curly tail and blue eyes" },
+      "keroppi": { "name": "Keroppi", "desc": "A frog living by the pond with big eyes and a bright smile" },
+      "littleTwinStars": { "name": "Little Twin Stars", "desc": "Twins from the star world, Kiki and Lala" },
+      "pochacco": { "name": "Pochacco", "desc": "A waddly white puppy always full of curiosity" },
+      "pompompurin": { "name": "Pompompurin", "desc": "A golden retriever in a beret who loves calling friends Pudding" }
+    }
+  },
+  "latest": {
+    "title": "Latest Content",
+    "subtitle": "Check out the latest updates and news",
+    "items": {
+      "0": { "title": "New Characters Arrive", "description": "New members join the Sanrio family! Meet the adorable newcomers", "date": "2026-07-01", "readMore": "Read more" },
+      "1": { "title": "Summer Special Event", "description": "Spend a cool summer with Kitty and friends", "date": "2026-06-28", "readMore": "Read more" },
+      "2": { "title": "Creative Workshop Launch", "description": "Unleash your imagination and create one-of-a-kind KittyVerse works", "date": "2026-06-25", "readMore": "Read more" }
+    }
+  }
+}

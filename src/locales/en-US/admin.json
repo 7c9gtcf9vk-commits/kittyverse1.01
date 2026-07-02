@@ -1,0 +1,98 @@
+{
+  "dashboard": {
+    "welcome": "Welcome to the KittyVerse Admin Panel",
+    "manageContent": "Manage Hero banners, media resources, and sticker configurations here."
+  },
+  "hero": {
+    "title": "Hero Banner Management",
+    "add": "Add Banner",
+    "addTitle": "Add New Banner",
+    "editTitle": "Edit Banner",
+    "empty": "No banners yet. Click the button above to add one.",
+    "enable": "Enable",
+    "disable": "Disable",
+    "moveUp": "Move Up",
+    "moveDown": "Move Down",
+    "preview": "Preview",
+    "closePreview": "Close Preview",
+    "confirmDelete": "Are you sure you want to delete this banner?",
+    "form": {
+      "type": "Banner Type",
+      "typeImage": "Image",
+      "typeVideo": "Video",
+      "typeMixed": "Mixed",
+      "title": "Title",
+      "subtitle": "Subtitle",
+      "chinese": "Chinese",
+      "englishFields": "English translation (optional)",
+      "titlePlaceholder": "e.g. Welcome to KittyVerse",
+      "subtitlePlaceholder": "e.g. Explore the dreamy world",
+      "description": "Description",
+      "imageUrl": "Image URL",
+      "mobileImageUrl": "Mobile Image URL",
+      "videoUrl": "Video URL",
+      "posterUrl": "Poster URL",
+      "buttonText": "Button Text",
+      "buttonLink": "Button Link",
+      "save": "Save Changes",
+      "create": "Create Banner"
+    },
+    "table": {
+      "order": "Order",
+      "type": "Type",
+      "preview": "Preview",
+      "title": "Chinese Title",
+      "titleEn": "English Title",
+      "enabled": "Status",
+      "actions": "Actions"
+    }
+  },
+  "media": {
+    "title": "Media Management",
+    "add": "Add Media",
+    "addTitle": "Add New Media",
+    "empty": "No media items yet. Click the button above to add one.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "e.g. Hello Kitty Banner",
+      "type": "Type",
+      "typeImage": "Image",
+      "typeVideo": "Video",
+      "typeAudio": "Audio",
+      "url": "URL",
+      "description": "Description",
+      "descriptionPlaceholder": "A short description",
+      "addBtn": "Add Media"
+    },
+    "table": {
+      "name": "Name",
+      "type": "Type",
+      "category": "Category",
+      "description": "Description",
+      "actions": "Actions"
+    }
+  },
+  "stickers": {
+    "title": "Sticker Management",
+    "subtitle": "Enable or disable floating stickers on the page",
+    "leftSide": "Left Side Stickers",
+    "rightSide": "Right Side Stickers",
+    "empty": "No stickers"
+  },
+  "theme": {
+    "title": "Theme Settings",
+    "reset": "Reset to Default",
+    "colors": "Color Settings",
+    "primaryColor": "Primary Color",
+    "secondaryColor": "Secondary Color",
+    "accentColor": "Accent Color",
+    "bgColor": "Background Color",
+    "branding": "Branding",
+    "logoText": "Logo Text",
+    "fontFamily": "Font Family",
+    "borderRadius": "Border Radius",
+    "display": "Display Settings",
+    "darkMode": "Dark Mode",
+    "darkModeDesc": "Enable dark background with light text"
+  }
+}

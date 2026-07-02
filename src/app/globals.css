@@ -1,0 +1,338 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  /* ---- Design Token Bridge ---- */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-foreground-secondary: var(--foreground-secondary);
+  --color-background-secondary: var(--background-secondary);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-active: var(--primary-active);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+
+  /* ---- Legacy kitty brand colors (required by existing components) ---- */
+  --color-kitty-blue: #81C784;
+  --color-kitty-pink: #66BB6A;
+  --color-kitty-yellow: #FFF1C1;
+  --color-kitty-mint: #A5D6A7;
+  --color-kitty-purple: #C5E1A5;
+  --color-kitty-orange: #FFB74D;
+  --color-kitty-white: #FFFFFF;
+  --color-kitty-gray: #F1F7F2;
+
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-sans);
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/* ================================================================
+   🌞 Light Theme — 阳光·森林·新芽·温暖·治愈
+   ================================================================ */
+:root {
+  --background: #F8FAF7;
+  --foreground: #1B1F1C;
+  --foreground-secondary: #5F6B63;
+  --background-secondary: #F1F7F2;
+  --card: #FFFFFF;
+  --card-foreground: #1B1F1C;
+  --popover: #FFFFFF;
+  --popover-foreground: #1B1F1C;
+
+  --primary: #4CAF50;
+  --primary-foreground: #FFFFFF;
+  --primary-hover: #43A047;
+  --primary-active: #2E7D32;
+
+  --secondary: #F1F7F2;
+  --secondary-foreground: #1B1F1C;
+
+  --muted: #F1F7F2;
+  --muted-foreground: #5F6B63;
+
+  --accent: #81C784;
+  --accent-foreground: #1B1F1C;
+
+  --destructive: #EF5350;
+  --destructive-foreground: #FFFFFF;
+
+  --border: #DCE6DE;
+  --input: #FFFFFF;
+  --ring: #4CAF50;
+
+  --success: #66BB6A;
+  --warning: #FFB74D;
+
+  --chart-1: #4CAF50;
+  --chart-2: #81C784;
+  --chart-3: #66BB6A;
+  --chart-4: #A5D6A7;
+  --chart-5: #388E3C;
+
+  --sidebar: #F8FAF7;
+  --sidebar-foreground: #1B1F1C;
+  --sidebar-primary: #4CAF50;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #F1F7F2;
+  --sidebar-accent-foreground: #1B1F1C;
+  --sidebar-border: #DCE6DE;
+  --sidebar-ring: #4CAF50;
+
+  --radius: 0.75rem;
+  --radius-card: 24px;
+
+  --transition-theme: background-color 300ms ease, color 300ms ease, border-color 300ms ease, box-shadow 300ms ease, fill 300ms ease, stroke 300ms ease;
+
+  /* ---- Shadow ---- */
+  --shadow-card: 0 12px 40px rgba(50, 80, 60, 0.08);
+  --shadow-card-hover: 0 18px 50px rgba(50, 80, 60, 0.12);
+
+  /* ---- Glass ---- */
+  --glass-bg: rgba(255, 255, 255, 0.8);
+  --glass-border: rgba(76, 175, 80, 0.12);
+  --glass-blur: 16px;
+
+  /* ---- Hero Gradient ---- */
+  --hero-from: #F8FAF7;
+  --hero-to: #E8F5E9;
+
+  /* ---- Navbar ---- */
+  --navbar-bg: rgba(255, 255, 255, 0.75);
+  --navbar-border: rgba(76, 175, 80, 0.12);
+  --navbar-blur: 24px;
+
+  /* ---- Sticker ---- */
+  --sticker-brightness: 1;
+  --sticker-contrast: 1;
+  --sticker-saturation: 1;
+}
+
+/* ================================================================
+   🌙 Dark Theme — 夜晚森林·萤火虫·沉浸·科技感
+   ================================================================ */
+.dark {
+  --background: #0F1720;
+  --foreground: #F4F8F4;
+  --foreground-secondary: #B6C8B9;
+  --background-secondary: #16211C;
+  --card: #1C2822;
+  --card-foreground: #F4F8F4;
+  --popover: #1C2822;
+  --popover-foreground: #F4F8F4;
+
+  --primary: #6EDC72;
+  --primary-foreground: #FFFFFF;
+  --primary-hover: #81E784;
+  --primary-active: #4CAF50;
+
+  --secondary: #16211C;
+  --secondary-foreground: #F4F8F4;
+
+  --muted: #16211C;
+  --muted-foreground: #B6C8B9;
+
+  --accent: #314438;
+  --accent-foreground: #F4F8F4;
+
+  --destructive: #EF5350;
+  --destructive-foreground: #FFFFFF;
+
+  --border: #314438;
+  --input: #223129;
+  --ring: #6EDC72;
+
+  --success: #66BB6A;
+  --warning: #FFB74D;
+
+  --chart-1: #6EDC72;
+  --chart-2: #81E784;
+  --chart-3: #4CAF50;
+  --chart-4: #A5D6A7;
+  --chart-5: #2E7D32;
+
+  --sidebar: #0F1720;
+  --sidebar-foreground: #F4F8F4;
+  --sidebar-primary: #6EDC72;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #16211C;
+  --sidebar-accent-foreground: #F4F8F4;
+  --sidebar-border: #314438;
+  --sidebar-ring: #6EDC72;
+
+  --radius: 0.75rem;
+  --radius-card: 24px;
+
+  --transition-theme: background-color 300ms ease, color 300ms ease, border-color 300ms ease, box-shadow 300ms ease, fill 300ms ease, stroke 300ms ease;
+
+  /* ---- Shadow ---- */
+  --shadow-card: 0 18px 50px rgba(0, 0, 0, 0.45);
+  --shadow-card-hover: 0 24px 60px rgba(0, 0, 0, 0.5);
+
+  /* ---- Glass ---- */
+  --glass-bg: rgba(28, 40, 34, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur: 16px;
+
+  /* ---- Hero Gradient ---- */
+  --hero-from: #0F1720;
+  --hero-to: #16211C;
+
+  /* ---- Navbar ---- */
+  --navbar-bg: rgba(15, 23, 32, 0.75);
+  --navbar-border: rgba(255, 255, 255, 0.08);
+  --navbar-blur: 24px;
+
+  /* ---- Sticker ---- */
+  --sticker-brightness: 1.05;
+  --sticker-contrast: 1.08;
+  --sticker-saturation: 1.1;
+}
+
+/* ================================================================
+   🔄 Theme Transition
+   ================================================================ */
+html {
+  transition: var(--transition-theme);
+}
+
+body {
+  transition: var(--transition-theme);
+}
+
+*,
+*::before,
+*::after {
+  transition: var(--transition-theme);
+}
+
+/* ---- Don't animate hover-only shadows/colors that use transition-colors ---- */
+[class*="transition-colors"],
+[class*="transition-shadow"],
+[class*="transition-all"],
+[class*="transition-opacity"] {
+  transition-property: inherit;
+}
+
+/* ================================================================
+   Base
+   ================================================================ */
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    background-image: radial-gradient(ellipse at 50% 0%, var(--hero-to) 0%, transparent 50%);
+    background-attachment: fixed;
+  }
+  html {
+    @apply font-sans;
+    scroll-behavior: smooth;
+  }
+}
+
+/* ================================================================
+   Utilities
+   ================================================================ */
+@utility glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur, 16px));
+  -webkit-backdrop-filter: blur(var(--glass-blur, 16px));
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
+
+@utility navbar-glass {
+  background: var(--navbar-bg);
+  backdrop-filter: blur(var(--navbar-blur));
+  -webkit-backdrop-filter: blur(var(--navbar-blur));
+  border-bottom: 1px solid var(--navbar-border);
+}
+
+@utility sticker-fade {
+  mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 85%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 85%, transparent 100%);
+}
+
+/* ---- Dark mode sticker glow (inline SVG) ---- */
+.dark .sticker-fade svg {
+  filter: brightness(var(--sticker-brightness)) contrast(var(--sticker-contrast)) saturate(var(--sticker-saturation));
+}
+
+.dark [data-sticker] svg {
+  filter: brightness(var(--sticker-brightness)) contrast(var(--sticker-contrast)) saturate(var(--sticker-saturation));
+}
+
+/* ================================================================
+   Swiper Override (Green theme)
+   ================================================================ */
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--primary) !important;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: var(--primary-hover) !important;
+}
+.swiper-pagination-bullet {
+  background: var(--primary) !important;
+  opacity: 0.35;
+}
+.swiper-pagination-bullet-active {
+  background: var(--primary) !important;
+  opacity: 1;
+}
+
+/* ================================================================
+   Selection
+   ================================================================ */
+::selection {
+  background: var(--primary);
+  color: var(--primary-foreground);
+}

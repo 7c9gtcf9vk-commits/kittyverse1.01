@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "prev": "上一张",
+    "next": "下一张",
+    "slide1": { "title": "欢迎来到 KittyVerse", "subtitle": "探索 Hello Kitty 和朋友们的梦幻世界" },
+    "slide2": { "title": "发现可爱角色", "subtitle": "遇见你最爱的三丽鸥明星们" },
+    "slide3": { "title": "创造美好回忆", "subtitle": "用甜蜜和快乐填满每一天" },
+    "slide4": { "title": "发现魔法", "subtitle": "进入可爱、创意与宁静的世界" }
+  },
+  "featured": {
+    "title": "特色内容",
+    "cards": {
+      "0": { "title": "可爱角色", "description": "探索所有三丽鸥角色的详情和信息" },
+      "1": { "title": "马卡龙画廊", "description": "甜美柔和的色调，治愈你的心情" },
+      "2": { "title": "创意项目", "description": "发现社区中的精彩作品和创意" },
+      "3": { "title": "梦幻日记", "description": "记录生活中的可爱瞬间" }
+    }
+  },
+  "gallery": {
+    "title": "角色画廊",
+    "subtitle": "认识所有可爱的朋友们",
+    "characters": {
+      "helloKitty": { "name": "Hello Kitty", "desc": "一只开朗的小猫咪，喜欢交朋友和收集可爱的东西" },
+      "myMelody": { "name": "美乐蒂", "desc": "温柔的兔子女孩，总是戴着粉色头巾" },
+      "kuromi": { "name": "酷洛米", "desc": "调皮可爱的小恶魔，其实是刀子嘴豆腐心" },
+      "cinnamoroll": { "name": "玉桂狗", "desc": "云上出生的小狗，有着卷卷的尾巴和蓝眼睛" },
+      "keroppi": { "name": "大眼蛙", "desc": "住在池塘边的青蛙，拥有大大的眼睛和灿烂的笑容" },
+      "littleTwinStars": { "name": "双星仙子", "desc": "来自星星世界的双胞胎，Kiki 和 Lala" },
+      "pochacco": { "name": "帕恰狗", "desc": "走路摇摇晃晃的白色小狗，总是充满好奇心" },
+      "pompompurin": { "name": "布丁狗", "desc": "一只黄色的金毛犬，戴着贝雷帽，喜欢叫朋友 Pudding" }
+    }
+  },
+  "latest": {
+    "title": "最新内容",
+    "subtitle": "查看最新的更新和动态",
+    "items": {
+      "0": { "title": "新角色登场", "description": "三丽鸥家族又有新成员啦！来看看可爱的萌新们", "date": "2026-07-01", "readMore": "了解更多" },
+      "1": { "title": "夏季特别活动", "description": "这个夏天，和 Kitty 一起度过清凉一夏", "date": "2026-06-28", "readMore": "了解更多" },
+      "2": { "title": "创意工坊上线", "description": "发挥你的想象力，创造独一无二的 KittyVerse 作品", "date": "2026-06-25", "readMore": "了解更多" }
+    }
+  }
+}
